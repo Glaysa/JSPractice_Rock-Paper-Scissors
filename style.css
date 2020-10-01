@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background: #252525;
+    padding: 50px 20px;
+    text-align: center;
+    line-height: 1.5em;
+    color: white;
+    min-height: 100vh;
+}
+
+section {
+    max-width: 30%;
+    margin: auto;
+}
+
+div.btns {
+    display: block;
+    height: auto;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: yellowgreen;
+    padding: 20px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    margin: 10px;
+    text-align: center;
+}
+
+button:hover {
+    background: green;
+    cursor: pointer;
+}
+
+button.input {
+    margin-top: 30px;
+    background: #252525;
+    color: yellowgreen;
+    text-transform: uppercase;
+}
+
+button.input:hover {
+    background: #252525;
+    cursor: default;
+}
+
+button.input i {
+    color: yellowgreen;
+}
+
+button#playAgain {
+    display: none;
+    margin: 30px auto;
+    border-radius: 7px;
+    background: yellowgreen;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+#winner {
+    color: yellowgreen;
+}
+
+#btns {
+    padding: 30px 0px;
+}
+
+.fa {
+    font-size: 50px;
+    color: white;
+}
+
+#scoreboard {
+    display: none;
+}
+
+#scoreboard p {
+    display: inline-block;
+    line-height: 1.5em;
+}
+
+@media only screen and (max-width:768px){
+    section {
+        max-width: 80%;
+    }
+}
